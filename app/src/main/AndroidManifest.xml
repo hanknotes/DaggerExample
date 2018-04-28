@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhourf.dagger.daggerexample">
+
+    <application
+        android:name="com.zhourf.dagger.daggerexample.DaggerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".example01.Example01Activity" />
+        <activity android:name=".example02.PersonActivity" />
+        <activity android:name=".example03.Person2Activity" />
+        <activity android:name=".example04.Person3Activity" />
+        <activity android:name=".example05.Person4Activity" />
+        <activity android:name=".example05.Person5Activity" />
+        <activity android:name=".example06.ModuleActivity" />
+        <activity android:name=".example07.Module01Activity" />
+        <activity android:name=".example08.AnimalActivity" />
+        <activity android:name=".example09.Animal2Activity" />
+        <activity android:name=".example10.FruitActivity" />
+        <activity android:name=".example11.BirdActivity" />
+        <activity android:name=".example12.ScopeActivity" />
+        <activity android:name=".example12.Scope2Activity" />
+        <activity android:name=".example12.Scope3Activity" />
+        <activity android:name=".example13.ColorActivity" />
+        <activity android:name=".example14.HuaweiActivity" />
+        <activity android:name=".example15Provider.TableActivity" />
+        <activity android:name=".example16Set.SetActivity" />
+        <activity android:name=".example16Set.DeskActivity" />
+        <activity android:name=".example16Set.ChairActivity" />
+        <activity android:name=".example17.MapActivity" />
+        <activity android:name=".example18.Map2Activity" />
+        <activity android:name=".example18.Map1Activity" />
+        <activity android:name=".example19.KeyActivity" />
+        <activity android:name=".example20.MapKeyActivity" />
+        <activity android:name=".example21.CupActivity"></activity>
+        <activity android:name=".example22Subcomponent.AnimalActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".example22Subcomponent.TigerActivity"></activity>
+    </application>
+
+</manifest>
